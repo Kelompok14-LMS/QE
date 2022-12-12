@@ -1,0 +1,5 @@
+starter\Projects\Auth\Login.class
+stepdefinition\Projects\CucumberTestSuite.class
+starter\Projects\Auth\Regis.class
+stepdefinition\Projects\Auth\LoginStep.class
+stepdefinition\Projects\Auth\RegisStep.class
