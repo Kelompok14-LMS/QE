@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Regis with valid url body valid email and null password</title>
+    <title>Login with valid url and valid body</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -127,8 +127,8 @@
 
             > <a href="5e45652439725d17778ecaaece820d9c1c0f82926bc79037d470278fab05c79f.html">Projects</a>
             > <a href="beedc27451c0134a6be4c501690c69e4b86e860ff6396b4a10ccec95aa809391.html">Auth</a>
-            > <a href="57fc3733f77945ee8a144ae7102cea75d4c919e47b8002290970729a3ece7696.html">Register</a>
-        > Regis with valid url body valid email and null password
+            > <a href="4f8dc99c1ab6d52a6fc1b264457afc4f3bfcb2c805e6a1ad76c682e6dba7a612.html">Login</a>
+        > Login with valid url and valid body
         </span>
         </div>
         <div class="rightbg"></div>
@@ -155,7 +155,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-12-2022 13:58</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-12-2022 22:58</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -170,7 +170,7 @@
                                 <div>
                                     <h3 class="discreet-story-header">
                                         <i class="fa fa-2x fa-comments-o"></i>
-                                        <span class="story-header-title">Register </span>
+                                        <span class="story-header-title">Login </span>
                                     </h3>
 
                                 </div>
@@ -188,7 +188,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    Regis with valid url body valid email and null password
+                                    Login with valid url and valid body
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -238,7 +238,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Given I set url regis
+                                                Given i set url login
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -246,7 +246,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">015ms</span></td>
+                        <td width="100"><span class="top-level-step">821ms</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -264,7 +264,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                When I input valid email and null body
+                                                When i input valid body
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -273,7 +273,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">114ms</span></td>
+                        <td width="100"><span class="top-level-step">5s 617ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -290,7 +290,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                POST http://educatetheworld.tech/api/v1/auth/mentee/register
+                                                POST http://educatetheworld.tech/api/v1/auth/mentee/login
                                         </span>
                                 <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -306,19 +306,19 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: http://educatetheworld.tech/api/v1/auth/mentee/register</p>
-                                        <p>Status code: 400</p>
+                                        <p>URL: http://educatetheworld.tech/api/v1/auth/mentee/login</p>
+                                        <p>Status code: 200</p>
                                         <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*<br>Content-Type=application/json</pre>
                                         <h4>Content Body</h4>
-                                        <pre>{<br>    &quot;password&quot;: null,<br>    &quot;email&quot;: &quot;siboro321@gmail.com&quot;<br>}</pre>
+                                        <pre>{<br>    &quot;password&quot;: &quot;12345678&quot;,<br>    &quot;email&quot;: &quot;usop21025@gmail.com&quot;<br>}</pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Content-Type: application/json; charset=UTF-8<br>Vary: Origin<br>Date: Mon, 12 Dec 2022 06:58:13 GMT<br>Content-Length: 153</pre>
+                                        <pre>Content-Type: application/json; charset=UTF-8<br>Vary: Origin<br>Date: Mon, 12 Dec 2022 15:58:08 GMT<br>Content-Length: 384</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;code&quot;: 400,<br>    &quot;status&quot;: &quot;error&quot;,<br>    &quot;message&quot;: &quot;Key: 'AuthMenteeInput.Password' Error:Field validation for 'Password' failed on the 'required' tag&quot;,<br>    &quot;data&quot;: null<br>}</pre>
+                                        <pre>{<br>    &quot;code&quot;: 200,<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;message&quot;: &quot;Login successful&quot;,<br>    &quot;data&quot;: {<br>        &quot;expires&quot;: &quot;2022-12-12T21:58:08.730492362Z&quot;,<br>        &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZTU0ZTI5MGYtZDVkNS00ODBhLWFiZDAtMjcwYzNmMTY4YmE3IiwibWVudGVlX2lkIjoiMDI3YzFiNDItNDIxZS00MjI2LWEzZTctNjgzNTMzY2Y4NjdhIiwicm9sZSI6Im1lbnRlZSIsImV4cCI6MTY3MDg4MjI4OH0.4ksl9zwDnX8Lsp0_Oha2s9qR7fBK2cHR_fTJldAyuQY&quot;<br>    }<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step"></span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
 
                                 </table>
@@ -347,7 +347,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                And I get status code 400
+                                                And i get status code 200
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -355,7 +355,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">009ms</span></td>
+                        <td width="100"><span class="top-level-step">072ms</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -369,7 +369,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Then I get message data null
+                                                Then i get message login success
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -377,12 +377,12 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">029ms</span></td>
+                        <td width="100"><span class="top-level-step">1s 080ms</span></td>
                     </tr>
                 <tr class="test-SUCCESS">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.19s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>7.92s</em></span></td>
                 </tr>
 
             </table>

@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Register","Regis with valid url and valid body","SUCCESS","2022-12-12T13:58:02.3568049+07:00[Asia/Bangkok]","0.0","11.28"
-"Register","Regis with valid url and null body","SUCCESS","2022-12-12T13:58:13.6625623+07:00[Asia/Bangkok]","0.0","0.24"
-"Register","Regis with valid url body valid email and null password","SUCCESS","2022-12-12T13:58:13.9165586+07:00[Asia/Bangkok]","0.0","0.19"
-"Register","Regis with valid url body null email and valid password","SUCCESS","2022-12-12T13:58:14.1258662+07:00[Asia/Bangkok]","0.0","0.18"
-"Register","Regis with body already exist","SUCCESS","2022-12-12T13:58:14.3235092+07:00[Asia/Bangkok]","0.0","0.19"
