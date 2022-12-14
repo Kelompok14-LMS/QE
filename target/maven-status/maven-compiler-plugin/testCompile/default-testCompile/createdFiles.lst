@@ -1,5 +1,12 @@
 starter\Projects\Auth\Login.class
 stepdefinition\Projects\CucumberTestSuite.class
+starter\Projects\CourseMentor\FullDetailCourse.class
+starter\Projects\Auth\Verify.class
+starter\Projects\Auth\ForgotPass.class
+stepdefinition\Projects\CourseMentor\FindAllCourseStep.class
 starter\Projects\Auth\Regis.class
 stepdefinition\Projects\Auth\LoginStep.class
+stepdefinition\Projects\Auth\verifyStep.class
+starter\Projects\CourseMentor\FindAllCourse.class
 stepdefinition\Projects\Auth\RegisStep.class
+stepdefinition\Projects\CourseMentor\FullDetailCourseStep.class

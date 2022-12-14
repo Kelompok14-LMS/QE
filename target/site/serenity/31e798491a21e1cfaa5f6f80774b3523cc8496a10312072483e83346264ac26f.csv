@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Login with valid url and valid body","SUCCESS","2022-12-12T22:58:02.4834807+07:00[Asia/Bangkok]","0.0","7.92"
-"Login","Login with valid url and null body","SUCCESS","2022-12-12T22:58:10.4182202+07:00[Asia/Bangkok]","0.0","0.17"
-"Login","Login with valid url and body valid email null password","SUCCESS","2022-12-12T22:58:10.6071679+07:00[Asia/Bangkok]","0.0","0.17"
-"Login","Login with valid url and body null email valid password","SUCCESS","2022-12-12T22:58:10.7892075+07:00[Asia/Bangkok]","0.0","0.15"
-"Login","Login with valid url and body valid email wrong password","SUCCESS","2022-12-12T22:58:10.9512063+07:00[Asia/Bangkok]","0.0","0.27"
-"Login","Login with valid url and body invalid format email","SUCCESS","2022-12-12T22:58:11.2436634+07:00[Asia/Bangkok]","0.0","0.15"
-"Login","Login with valid url and body wrong email valid password","SUCCESS","2022-12-12T22:58:11.4027325+07:00[Asia/Bangkok]","0.0","0.17"
