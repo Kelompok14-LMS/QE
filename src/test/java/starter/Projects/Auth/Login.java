@@ -10,13 +10,13 @@ public class Login {
     private String url;
 
     public void setUrl(){
-        url = "http://educatetheworld.tech/api/v1/auth/mentee/login";
+        url = "https://stagging.educatetheworld.tech/api/v1/auth/mentee/login";
     }
 
     public JSONObject body(){
         JSONObject body = new JSONObject();
-        body.put("email", "usop21025@gmail.com");
-        body.put("password", "12345678");
+        body.put("email", "davidsagala992@gmail.com");
+        body.put("password", "111222");
         return body;
     }
 

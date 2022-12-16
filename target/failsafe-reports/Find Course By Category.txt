@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Find Course By Category
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.792 s - in Find Course By Category

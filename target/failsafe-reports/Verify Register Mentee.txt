@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Verify Register Mentee
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 12.842 s <<< FAILURE! - in Verify Register Mentee
+Verify Register Mentee.Verify with valid url and valid otp  Time elapsed: 11.988 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+1 expectation failed.
+Expected status code <201> but was <400>.
+
+
+Verify Register Mentee.Verify with valid url and wrong otp  Time elapsed: 0.48 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+1 expectation failed.
+Expected status code <409> but was <400>.
+
+

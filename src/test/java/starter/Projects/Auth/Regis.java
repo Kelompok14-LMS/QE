@@ -10,7 +10,7 @@ public class Regis {
     private String url;
 
     public void setUrl(){
-        url = "http://educatetheworld.tech/api/v1/auth/mentee/register";
+        url = "https://stagging.educatetheworld.tech/api/v1/auth/mentee/register";
     }
 
     public JSONObject validBody(){

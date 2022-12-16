@@ -10,7 +10,7 @@ public class Verify {
     private String url;
 
     public void setUrl(){
-        url = "http://educatetheworld.tech/api/v1/auth/mentee/register/verify";
+        url = "https://stagging.educatetheworld.tech/api/v1/auth/mentee/register/verify";
     }
 
     public JSONObject validOtp(){
@@ -19,7 +19,7 @@ public class Verify {
         body.put("phone", "085123457890");
         body.put("email", "davidsagala992@gmail.com");
         body.put("password", "111222");
-        body.put("otp", "5614");
+        body.put("otp", "7719");
         return body;
     }
 

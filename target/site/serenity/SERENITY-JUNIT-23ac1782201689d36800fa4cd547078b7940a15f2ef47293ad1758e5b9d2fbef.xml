@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Find Course By Category" skipped="0" tests="2" time="11.14" timestamp="2022-12-16 09:44:56"><testcase name="Find course by category with valid url and valid category"/><testcase name="Find course by category with valid url and invalid category"/></testsuite>

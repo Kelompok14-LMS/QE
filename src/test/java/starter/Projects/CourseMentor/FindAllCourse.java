@@ -10,17 +10,19 @@ public class FindAllCourse {
     private String url, token;
 
     public void setUrlAndToke(){
-        url = "http://educatetheworld.tech/api/v1/courses?keyword=";
-        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiM2FmMDljYTMtNjhlMy00ZjY4LWFmZGItOTA1ZmVjNDVhNTFjIiwibWVudG9yX2lkIjoiYjhhZDdiNDMtMTBjOC00NDk1LTgwZDQtNTkzZWIxY2Q1Y2E5Iiwicm9sZSI6Im1lbnRvciIsImV4cCI6MTY3MTAyNTc3OX0.XoyyR_ygi_lDYrJHh9Rehzz6Lm45ZTbP4t7B_blSCrg";
+        url = "https://stagging.educatetheworld.tech/api/v1/courses?keyword=";
+        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZTU0ZTI5MGYtZDVkNS00ODBhLWFiZDAtMjcwYzNmMTY4YmE3IiwibWVudGVlX2lkIjoiMDI3YzFiNDItNDIxZS00MjI2LWEzZTctNjgzNTMzY2Y4NjdhIiwicm9sZSI6Im1lbnRlZSIsImV4cCI6MTY3MTIyMDI5Mn0.3lDW5u16_ihScCWmmB94L6ZYqPwPFTHVekYIw1BEka4";
     }
 
     public void requestFindAllCourse(){
-        given().header("Content-Type","application/json")
+        given().header("Authorization", token)
+                .header("Content-Type","application/json")
                 .when().get(url);
     }
 
     public void requestFindAllCourseInvalidMethod(){
-        given().header("Content-Type","application/json")
+        given().header("Authorization", token)
+                .header("Content-Type","application/json")
                 .when().put(url);
     }
 
