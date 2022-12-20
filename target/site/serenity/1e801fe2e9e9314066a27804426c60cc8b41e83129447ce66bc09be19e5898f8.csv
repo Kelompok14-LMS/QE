@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Full Detail Course","Full detail course with valid url valid token and valid course id","SUCCESS","2022-12-16T21:44:56.1919798+07:00[Asia/Bangkok]","0.0","10.76"
-"Full Detail Course","Full detail course with valid url valid token and invalid course id","SUCCESS","2022-12-16T21:45:07.1108655+07:00[Asia/Bangkok]","0.0","0.31"
+"Full Detail Course","Full detail course with valid url valid token and valid course id","SUCCESS","2022-12-19T23:55:11.3794637+07:00[Asia/Bangkok]","0.0","12.07"
+"Full Detail Course","Full detail course with valid url valid token and invalid course id","SUCCESS","2022-12-19T23:55:23.65707+07:00[Asia/Bangkok]","0.0","0.61"

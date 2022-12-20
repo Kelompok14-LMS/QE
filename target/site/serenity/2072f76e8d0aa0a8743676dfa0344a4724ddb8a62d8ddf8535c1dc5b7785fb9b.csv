@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Verify Register Mentee","Verify with valid url and valid otp","FAILURE","2022-12-16T21:44:56.5589624+07:00[Asia/Bangkok]","0.0","8.96"
-"Verify Register Mentee","Verify with valid url and wrong otp","FAILURE","2022-12-16T21:45:05.5728953+07:00[Asia/Bangkok]","0.0","0.44"
